@@ -1,0 +1,44 @@
+*{
+	margin: 5px;
+	padding: 5px;
+}
+#wrapper{
+	background-color: rgb(37,44,138);
+	padding: 1px;
+	margin: 15px;
+	margin-right: 100px;
+}
+#header{
+	border-radius: 15px;
+	color: white;
+	background-color: red;
+	margin: 15px;
+	margin-right: 15px;
+	padding: 15px;
+}
+#Nav{
+	border-radius: 15px;
+	background-color: gray;
+	margin-right: 1100px;
+	margin-bottom: 800px;
+	margin-left: 15px;
+	margin-top: 20px;
+	display: inline-block;
+}
+#footer{
+	color: white;
+	border-radius: 10px;
+	background-color: gray;
+	margin: 15px;
+	margin-right: 15px;
+}
+#bulk{
+	border-radius: 15px;
+	color: white;
+	background-color: black;
+	margin-bottom: 15px;
+	margin-top: -1250px;
+	margin-left: 250px;
+	margin-right: 15px;
+	vertical-align: top;
+}

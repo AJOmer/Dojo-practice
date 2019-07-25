@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 1px orange;
+}
+div.container{
+	width:1000px;
+	min-height: 960px;
+	background-color: white;
+	display: inline-block;
+	margin: 0px auto;
+	}
+		div.container div.top{
+			background-color: rgb(255,218,218);
+			margin: 15px;
+			display: inline-block;
+			width: 980px;
+			}
+		div.container div.top div.image{
+			width: 200px;
+			height: 40px;
+			font-size: 30px;
+			font-family: cursive;
+			display: inline-block;
+			}
+		div.container div.top ul{
+			font-size: 30px;
+			padding-left: 250px;
+			display: inline-block;
+			}
+			div.container div.bottom{
+				height: 400px;
+				background-color: rgb(74,52,52);
+				}
+			div.container div.bottom div.info{
+					display: inline-block;
+					vertical-align: top;
+					width: 300px;
+					min-height: 300px;
+					margin: 30px;
+					margin-right: 100px;
+					}
+			div.container div.bottom div.info img{
+					height: 310px;
+					width: 370px;
+					border: 15px;
+					}
+			div.container div.bottom div.info p{
+					height: 290px;
+					width: 500px;
+					background-color: white;
+					color: black;
+					margin-right: 15px;
+					font-size: 20px;
+					}	
+				div.container div.bottom div.info h1{
+					display: block;
+					color: white;
+					background-color: gray;
+					width: 500px;
+				}
+					div.container div.bunker{
+					background-color: rgb(74,52,52);
+					}
+					div.container div.bunker div.message{
+						background-color: white;
+						height: 500px;
+						width: 250px;
+						padding: 15px;
+						margin: 15px;
+						display: inline-block;
+						vertical-align: top;
+						text-align: center;
+						}
+					div.container div.bunker div.message img{
+						width:250px;
+						height: 170px;
+					}
+					div.container div.bunker div.message div.techused img{
+						width: 50px;
+						height: 30px;
+					}
+					div.container div.bunker div.message h2{
+						background-color: gray;
+						width: 250px;
+						font-size: 20px;
+						border: 1px white;
+						display: block;
+						color: white;
+					}
+					div.container div.bunker div.message p{
+						min-height: 175px;
+					}
+					div.container div.bunker div.message h1{
+						display: block;
+						background-color: gray;
+						width: 250px;
+						color: white;
+					}
+					div.container div.bunker div.message input{
+						background-color: green;
+						color: white;
+
+					}
+						div.container div.footer{
+							text-align: center;
+						}
+						div.container div.contact{
+							font-size: 10px;
+							height: 50px;
+							width: 960px;
+							}
+						div.container div.social img{
+							width: 30px;
+							min-height: 10px;
+							margin: 5px;
+							margin-left: 50px;
+							}
+							div.container div.social a{
+								font-size: 15px;
+								margin left: 30px;
+							}
+							div.container div.footer{
+								background-color: silver;
+							}

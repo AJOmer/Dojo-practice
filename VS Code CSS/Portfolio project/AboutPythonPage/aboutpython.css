@@ -1,0 +1,155 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	/*border: 1px solid orange;*/
+}
+.wholepage{
+	background-color: rgb(70,76,164);
+	width: 970px;
+	height: 880px;
+	/*display: inline-block;*/
+}
+	.top{
+	margin: 15px;
+	}
+	.pythonimage img{
+		margin: 15px;
+		display: inline-block;
+		width: 400px
+		height: 300px;
+	}
+	.pythonimage input{
+		vertical-align: top;
+		margin-top: 40px;
+		margin-left: 100px;
+	}
+	.searchbar{
+		display: block;
+		margin-top: -200px;
+	}
+	.searchbar h1{
+		font-size: 15px;
+		color: white;
+		display: inline-block;
+		margin-left: 710px;
+	}
+	.searchbar a{
+		color: gold;
+		margin-top: 10px;
+		font-size: 15px;
+		display: inline-block;
+	}
+	.myform{
+		margin-left: 710px;
+		margin-top: 15px;
+		display: inline-block;
+	}
+	.myform form{
+		border: 7px solid black;
+		border-radius: 10px;
+	}
+		/*.bulk{
+			display: inline-block;
+		}*/
+		.aboutcolumn{
+			margin-top: 100px;
+		}
+		.aboutcolumn ul{
+			background-color: rgb(60,128,168);
+			display: inline-block;
+			margin-left: 140px;
+			height: 50px;
+			border-radius: 20px;
+		}
+		.aboutcolumn li{
+			display: inline-block;
+			text-align: center;
+			margin-top: 25px;
+			margin-left: 40px;
+			color: white;
+		}
+		#navbar{
+			margin-left: 100px;
+			margin-top: 60px;
+			display: inline-block;
+		}
+		#navbar li{
+			font-size: 15px;
+			margin: 10px;
+		}
+		#navbar a{
+			color: white;
+		}
+		#navbar ul{
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+		}
+		#paragraph{
+			display: inline-block;
+			width: 600px;
+			margin-left: 25px;
+			margin-top: 45px;
+			color: white;
+			vertical-align: top;
+			text-align: center;
+		}
+		#paragraph h3{
+			color: orange;
+			text-align: center;
+			margin: 10px;
+		}
+		#paragraph h3:nth-child(6){
+			color: white;
+			margin: 10px;
+		}
+			#bottom{
+				background-color: white;
+				display: inline-block;
+			}
+			.message{
+				/*background-color: gray;*/
+				display: inline-block;
+				vertical-align: top;
+				text-align: center;
+				margin: 5px;
+				width: 470px;
+				height: 260px;
+			}
+			.message h1{
+				font-size: 20px;
+				margin: 5px;
+				border-top: 5px solid teal;
+			}
+			.message p{
+				font-size: 15px;
+				text-align: center;
+				width: 400px;
+
+			}
+			.message li{
+				width: 200px;
+				font-size: 15px;
+			}
+				#footer{
+					background-color: rgb(70,76,164);
+					display: inline-block;
+					/*margin-right: 200px;*/
+					width: 100%
+					/*height:100%;*/
+
+				}
+				.initiatives{
+					text-align: center;
+					/*width: 410px;*/
+				}
+				.initiatives h1{
+					display: inline-block;
+					font-size: 15px;
+					text-align: center;
+					padding: 30px;
+				}
+				.initiatives h2{
+					font-size: 10px;
+					color: white;
+				}

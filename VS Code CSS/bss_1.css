@@ -1,0 +1,10 @@
+p{
+	color: orange;
+}
+#important{
+	font-size: 32px;
+}
+.info{
+	background-color: blue;
+	border-right: black;
+}

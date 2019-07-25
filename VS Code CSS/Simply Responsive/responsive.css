@@ -1,0 +1,34 @@
+
+@media only screen and (max-width: 480px){
+	.container{
+		background-color: orange;
+	}
+	h2.Medium{
+		display: none;
+	}
+	h2.Large{
+		display: none;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+	.container{
+		background-color: blue;
+	}
+	h2.Large {
+		display: none;
+	}
+	h2.Small{
+		display: none;
+	}
+}
+@media only screen and (min-width:1024px){
+	.container{
+		background-color: green;
+	}
+	h2.Medium{
+		display: none;
+	}
+	h2.Small{
+		display: none;
+	}
+}

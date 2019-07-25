@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+	<form action="process.php" method="post">
+		<p> Registration Form </p>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name">
+		<label for="last_name">Last Name:</label>
+		<input type="last_name" name="last_name">
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email">
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password">
+		<label for="PW_confirm">PW Confirm:</label>
+		<input type="password" id="PW_confirm" name="PW_confirm">
+		<p>Select your gender:</p>
+		<select name= "gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option val="decline">Prefer not to say</option>input type="text" id=
+		</select>
+			<p>Say a few words about yourself:</p>
+			<textarea name="description"></textarea>
+		<p>Select your favorite language:</p>
+			<select name= "favorite language">
+				<option value="Javascript"> Javascript</option>
+				<option value="CSS"> CSS</option>
+				<option value="angular">Angular</option>
+			</select>
+		<p>Birthdate:</p>
+		<input type="date" id="Birthday" name="date">
+	</form>
+</body>
+</html>
